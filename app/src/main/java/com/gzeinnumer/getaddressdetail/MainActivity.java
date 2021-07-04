@@ -15,8 +15,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        AddressKoordinat addressKoordinat = GetAddress.getAddressResult(getApplicationContext(), -0.9001564,100.4059463);
+        double lati = -0.9001564;
+        double longi = 100.4059463;
 
-        ((TextView)findViewById(R.id.tv)).setText(addressKoordinat.toString());
+        AddressKoordinat addressKoordinat = GetAddress.getAddressResult(getApplicationContext(), lati, longi);
+
+        ((TextView) findViewById(R.id.tv)).setText(addressKoordinat.toString());
     }
 }
