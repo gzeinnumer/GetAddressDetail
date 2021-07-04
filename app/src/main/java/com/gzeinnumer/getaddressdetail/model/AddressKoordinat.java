@@ -1,4 +1,4 @@
-package com.gzeinnumer.getaddressdetail;
+package com.gzeinnumer.getaddressdetail.model;
 
 public class AddressKoordinat {
     private String addressLine;

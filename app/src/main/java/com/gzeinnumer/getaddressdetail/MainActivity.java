@@ -1,12 +1,12 @@
 package com.gzeinnumer.getaddressdetail;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
-import android.util.Log;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.gzeinnumer.getaddressdetail.helper.GetAddress;
+import com.gzeinnumer.getaddressdetail.model.AddressKoordinat;
 
 public class MainActivity extends AppCompatActivity {
 

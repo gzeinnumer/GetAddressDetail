@@ -3,9 +3,8 @@ package com.gzeinnumer.getaddressdetail.helper;
 import android.content.Context;
 import android.location.Address;
 import android.location.Geocoder;
-import android.util.Log;
 
-import com.gzeinnumer.getaddressdetail.AddressKoordinat;
+import com.gzeinnumer.getaddressdetail.model.AddressKoordinat;
 
 import java.io.IOException;
 import java.util.ArrayList;
