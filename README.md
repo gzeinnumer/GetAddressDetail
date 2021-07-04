@@ -4,7 +4,7 @@
 
 [GetAddress.java](https://github.com/gzeinnumer/GetAddressDetail/blob/master/app/src/main/java/com/gzeinnumer/getaddressdetail/helper/GetAddress.java)
 
-#### GetAdress
+#### Model
 
 [AddressKoordinat.java](https://github.com/gzeinnumer/GetAddressDetail/blob/master/app/src/main/java/com/gzeinnumer/getaddressdetail/model/AddressKoordinat.java)
 
